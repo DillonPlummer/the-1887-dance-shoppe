@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>1887 Dance Shoppe | San Francisco</title>
+</head>
+
+<body>
+  <div id="main-wrap" class="fluid-container col-12">
+
+    <!-- SPLASH -->
+    <div id="splash" class="row col-12 text-center">
+      <div class="col">
+        <div id="pink-splash">
+          <div id="title">
+            1887 Dance Shoppe
+          </div>
+          <div id="subtitle">
+            415.441.1887 | 2206 Union Street, San Francisco
+          </div>
+        </div>
+        <img src="./img/piano-background.svg" alt="piano-background">
+      </div>
+    </div>
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="navbar fixed-top sticky-top navbar-expand-md">
+      <a id="logo" class="navbar-brand mr-3" href="#"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars my-auto d-flex justify-content-center pt-1"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center" id="collapsingNavbar">
+        <ul class="navbar-nav mr-auto">
+
+          <!-- shoes -->
+          <li class="nav-item active">
+            <a class="nav-link" href="#">
+              Shoes
+              <span class="sr-only">Shoes</span>
+            </a>
+          </li>
+
+          <!-- dancewear dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Dancewear
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <!-- outerwear dropdown -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Outerwear
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+
+          <!-- accessories -->
+          <li class="navbar-item">
+            <a href="#" class="nav-link">Accessories</a>
+          </li>
+        </ul>
+
+        <!-- search -->
+        <!--
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn my-2 my-sm-0" type="submit">Search</button>
+        </form>
+        -->
+      </div>
+
+<!--       <div class="navbar-collapse collapse justify-content-center order-2" id="collapsingNavbar">
+  <ul class="navbar-nav">
+
+    shoes
+    <li class="nav-item">
+        <a class="nav-link" href="#">
+          Shoes
+          <span class="sr-only">Shoes</span>
+        </a>
+    </li>
+
+    dancewear dropdown
+    <li class="nav-item">
+      <a class="nav-link" href="#" id="dancewearDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dancewear</a>
+      <div class="dropdown-menu dropdown-menu-left" aria-labelledby="dancewearDropdown">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </li>
+
+    outerwear dropdown
+    <li class="nav-item">
+      <a class="nav-link" href="#" id="outerwearDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Outerwear</a>
+      <div class="dropdown-menu" aria-labelledby="outerwearDropdown">
+        <a class="dropdown-item" href="#">Action</a>
+        <a class="dropdown-item" href="#">Another action</a>
+        <div class="dropdown-divider"></div>
+        <a class="dropdown-item" href="#">Something else here</a>
+      </div>
+    </li>
+
+    accessories
+    <li class="nav-item">
+        <a class="nav-link" href="#">
+          Accessories
+          <span class="sr-only">Accessories</span>
+        </a>
+    </li>
+
+  </ul>
+</div>
+<span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"></span> -->
+
+    </nav>
+
+    <!-- HEADER IMG -->
+    <div id="header">
+      <img src="./img/ballet-header.jpg" alt="ballet-header">
+    </div>
+
+    <!-- product scroll -->
+<!--     <div class="row col-12 justify-content-center">
+  <button class="btn prev mt-3 mx-5"><i class="fas fa-arrow-circle-left"></i></button>
+  <button class="btn next mt-3 mx-5"><i class="fas fa-arrow-circle-right"></i></button>
+</div> -->
+
+
+    <div id="latestArrivals" class="row col-12 text-center">
+      <div class="col mt-4">
+        <h1>Latest Arrivals</h1>
+      </div>
+    </div>
+    <div class="main-carousel">
+      <div class="carousel-cell">
+        <div class="card text-center">
+        <img class="card-img-top" src="./img/product-1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+
+      <div id="orange" class="carousel-cell">
+        <div class="card text-center">
+        <img class="card-img-top" src="./img/product-2.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+
+      <div id="yellow" class="carousel-cell">
+        <div class="card text-center">
+        <img class="card-img-top" src="./img/product-3.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-cell">
+        <div class="card text-center">
+        <img class="card-img-top" src="./img/product-1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="carousel-cell">
+        <div class="card text-center">
+        <img class="card-img-top" src="./img/product-1.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- *** FILLER *** -->
+  <!--   <div class="p-3">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore, reprehenderit incidunt deserunt rerum id tempore optio similique autem maxime nostrum beatae, quam ducimus placeat dolorum eveniet maiores harum eos ipsam. Minus, ipsa ad eius molestias eveniet, porro iste fuga quae atque odio id ducimus consequatur quis adipisci! Blanditiis temporibus debitis beatae eum architecto voluptate, facilis, vitae quae quod ad accusamus, aspernatur repellendus, itaque atque repudiandae tempore illo pariatur ullam illum. Optio rem, repudiandae. Dolor incidunt autem voluptate et pariatur, molestias ipsum libero hic consequuntur modi assumenda reprehenderit. Iusto ea, provident labore? Error voluptatum hic quaerat, repudiandae facilis earum sint neque, suscipit ipsum veritatis vel cupiditate laborum. Dicta error dolore, fugiat est magnam, rem soluta! Odit molestias repellendus porro hic nisi, laudantium a quis officia iste eos sit vitae, ratione vel dignissimos temporibus reprehenderit fugiat perspiciatis voluptates ipsam quia dolorum minus. Odit voluptatum totam ea repellendus cumque porro veritatis itaque deleniti architecto, mollitia aut, nulla exercitationem voluptatibus ad, fugit. Distinctio dolore similique rem numquam, esse pariatur magnam minus quos suscipit laborum odit incidunt tenetur, ducimus consectetur placeat modi. Culpa quisquam dolore perferendis minima laborum aut vitae in dolorum ullam quasi ea minus recusandae maiores cumque iste harum iure incidunt quo, eaque, esse temporibus perspiciatis ipsum! Delectus maxime voluptas atque porro, quam quod incidunt repudiandae dolorem tenetur architecto, eum eius perferendis odio voluptatibus quas fuga nobis labore sapiente, itaque hic error molestias repellendus, eveniet! Maxime aliquam beatae a voluptates, laudantium veritatis, quos aut ullam nam. Temporibus ex, assumenda nemo commodi delectus optio.
+
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus pariatur suscipit, nihil aspernatur dicta repellendus nobis consequuntur provident architecto exercitationem nostrum, asperiores ea iure itaque esse ratione a incidunt voluptas blanditiis laudantium cupiditate. Dicta incidunt maxime qui dolorem aut corporis exercitationem ab commodi aspernatur eligendi natus atque quidem provident earum distinctio, ipsum illo sequi officia error numquam architecto quas magnam est et vitae! Molestias, dolore, natus quaerat, dolor nesciunt nemo perspiciatis hic a aliquam reiciendis sint commodi, voluptates nisi voluptate officia assumenda sed quasi. Temporibus distinctio natus dignissimos, nisi nobis, est ipsum ex iure, illo optio id. Harum in velit perspiciatis deleniti incidunt quod inventore non. Iure corporis eligendi non omnis harum, deleniti hic expedita voluptatem rerum, architecto minus totam ratione quisquam incidunt. Eum adipisci quo deleniti sint voluptatibus earum officia ea commodi minima veniam ipsa nam modi, ex, nostrum labore iste repudiandae rerum ab nisi, quis facilis at eos aspernatur consequatur. Voluptatum perspiciatis tenetur perferendis aliquid voluptates quod. Adipisci, suscipit ut minus, neque dolores modi quasi tempora maxime quia autem magnam consequatur, itaque placeat aperiam odio quod animi eveniet eius ab optio aspernatur iure? Obcaecati numquam non corporis eveniet, voluptate fuga, ut hic, quos laboriosam sint consectetur saepe? Nobis mollitia nam assumenda est consectetur eligendi deserunt ratione officiis alias, accusantium error minus, doloribus aut commodi, vitae modi cum iste dolorem vero at saepe? Eligendi consequatur vitae quo nam minus numquam expedita amet necessitatibus, suscipit odio reiciendis laborum a provident at cupiditate fuga, enim dolorum. Neque voluptatum repellat sed recusandae, ipsum vero corrupti possimus dignissimos, laborum cumque, eveniet repellendus consequatur impedit deserunt. Iure totam, a officia animi nemo necessitatibus, molestias quia ipsam? Repellat officiis perspiciatis, quis exercitationem nihil sapiente facilis vitae qui cupiditate. Vitae magni, vero odio reiciendis doloribus, eius, ea optio quae laudantium libero dolor autem quo. Beatae velit itaque deleniti asperiores labore ipsam dolores, animi molestiae voluptas quos totam. Quis, hic, tempore! Voluptate odit illum cum, inventore amet? Deserunt saepe architecto, natus fugit cumque sit! Tenetur voluptatibus perferendis laudantium quas, cumque inventore in nihil optio aspernatur adipisci debitis repellat esse totam cupiditate, aperiam fugiat repellendus ab. Quibusdam, soluta ut adipisci maxime ea qui, quasi optio autem harum vero porro ipsa eveniet facilis nam officiis architecto blanditiis excepturi, aut, iste rerum esse dignissimos. Nisi eius dolores et quibusdam enim quisquam qui illum possimus facilis voluptatum ratione magni odio unde nostrum earum voluptates esse officiis eligendi tempora, libero dolorum maxime adipisci autem! Distinctio atque repudiandae quo minus facilis molestias, corrupti perspiciatis ipsa, voluptatem error eligendi, suscipit asperiores, optio reiciendis fugit maxime dignissimos quis dicta adipisci debitis obcaecati id corporis ipsam! Nobis vitae ipsam hic et facilis aperiam temporibus repellat officia nisi cum sint nam dolorem recusandae dolor iste deleniti placeat laborum, eaque tempora sit id? Unde mollitia distinctio maxime commodi praesentium facilis, modi quos doloribus sit itaque ea quibusdam temporibus eius ut, inventore ullam eum porro animi rerum autem fugit quam neque dolorem? Sapiente modi, nulla ipsum ullam blanditiis fugiat. Aliquid quis neque sapiente quaerat aspernatur iure voluptatem temporibus alias?
+  </div> -->
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <div class="text-muted text-center p-3">
+        &copy; 2019 | 1887 Dance Shoppe. All rights reserved.
+      </div>
+    </div> <!-- /footer -->
+  </div> <!-- /main-wrap -->
+
+
+
+  <!-- SCRIPTS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="./app.js" charset="utf-8"></script>
+</body>
+</html>
